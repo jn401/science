@@ -1,0 +1,47 @@
+[
+  {
+    "id": "microscope",
+    "title": "探索显微镜下的世界",
+    "shortTitle": "互动显微镜",
+    "category": "生命科学",
+    "grades": ["五年级", "六年级"],
+    "status": "pending",
+    "image": "assets/images/microscope.svg",
+    "imageAlt": "显微镜、载玻片与微观细胞的器材示意图",
+    "summary": "认识显微镜，开启微小世界的观察之旅。",
+    "description": "已有互动显微镜程序将在核对原始文件后接入。目前可以查看模块说明，暂不能进行虚拟实验。",
+    "equipment": ["显微镜", "载玻片", "装片"],
+    "questions": ["显微镜由哪些部分组成？", "怎样让观察到的物像更清晰？", "放大倍数改变时，视野会有什么变化？"],
+    "entry": null
+  },
+  {
+    "id": "wind",
+    "title": "风从哪里来",
+    "shortTitle": "风的成因",
+    "category": "地球与宇宙科学",
+    "grades": ["四年级"],
+    "status": "planned",
+    "image": "assets/images/wind.svg",
+    "imageAlt": "透明观察箱、温度计和空气流动线条的器材示意图",
+    "summary": "从空气的流动出发，寻找风形成的线索。",
+    "description": "这是后续实验的预留位置，尚未开发。未来将围绕温度记录与空气流动现象组织观察。",
+    "equipment": ["空气流动观察装置", "温度计"],
+    "questions": ["我们怎样发现空气在流动？", "哪些观察可以成为解释风的证据？"],
+    "entry": null
+  },
+  {
+    "id": "magnifier",
+    "title": "用放大镜观察",
+    "shortTitle": "研究放大镜",
+    "category": "物质科学",
+    "grades": ["五年级"],
+    "status": "planned",
+    "image": "assets/images/magnifier.svg",
+    "imageAlt": "放大镜观察树叶叶脉的器材示意图",
+    "summary": "借助工具，发现平常不易看清的细节。",
+    "description": "这是后续实验的预留位置，尚未开发。未来将围绕放大镜的观察方法与成像现象设计活动。",
+    "equipment": ["放大镜", "树叶", "观察材料"],
+    "questions": ["借助放大镜，你能发现哪些新细节？", "改变工具和物体的距离，观察结果怎样变化？"],
+    "entry": null
+  }
+]

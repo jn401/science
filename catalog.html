@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#126557"><meta name="description" content="浏览附小科学实验目录，按关键词、科学领域与接入状态寻找实验模块。"><title>实验目录 · 附小科学实验室</title><link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/css/style.css"><script type="module" src="assets/js/catalog.js"></script></head>
+<body data-page="catalog"><a class="skip-link" href="#main">跳到主要内容</a><header data-header></header><aside data-principles aria-label="虚拟实验室原则"></aside>
+  <main id="main" class="container catalog-main">
+    <div class="page-heading"><p class="eyebrow">EXPERIMENT COLLECTION</p><h1>选择你的探索方向</h1><p>从一件器材、一个问题开始，走近科学。</p></div>
+    <form id="filters" class="filters" role="search" aria-label="筛选实验目录"><div class="search-field"><label for="search">搜索实验</label><div class="search-input"><span aria-hidden="true">⌕</span><input type="search" id="search" name="q" maxlength="100" placeholder="实验名称、器材或年级" autocomplete="off"></div></div><div><label for="category">科学领域</label><select id="category" name="category"><option value="">全部领域</option></select></div><div><label for="status">模块状态</label><select id="status" name="status"><option value="">全部状态</option><option value="ready">可进入</option><option value="pending">待接入</option><option value="planned">规划中</option></select></div><button id="clear-filters" type="button" class="clear-button" hidden>清除筛选</button></form>
+    <div class="results-heading"><p id="result-count" role="status" aria-live="polite">正在读取目录…</p><p>“待接入”和“规划中”暂不能进行实验</p></div>
+    <div class="card-grid" id="experiment-list"><p class="loading">正在加载实验模块…</p></div>
+    <div class="future-note"><span aria-hidden="true">＋</span><div><h2>为下一个发现，留一个位置</h2><p>实验室会持续增加新的科学实验。接入并检查完成的模块，将开放“进入实验”入口。</p></div></div>
+  </main><footer data-footer></footer><noscript><div class="noscript-note">请启用 JavaScript 以使用搜索和实验目录。</div></noscript>
+</body></html>
